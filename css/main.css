@@ -1,0 +1,192 @@
+/* NAVBAR ESTILO */
+.navbar {
+  background-color: #4b543a;
+  width: 100%; }
+  .navbar .navbar-brand {
+    width: 200px;
+    height: 120px;
+    margin: 0px;
+    padding: 0px; }
+    .navbar .navbar-brand .navbar-light .navbar-toggler {
+      border-color: #b9ac28; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+/* NAVBAR ESTILO */
+/* MAIN ESTILO */
+.main__index {
+  background: url(../imagenes/p1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 850px;
+  max-width: 100%;
+  min-width: 100%; }
+  .main__index .main__titulo1,
+  .main__index .main__titulo2 {
+    color: white; }
+
+/* MAIN ESTILO */
+/* SECTION ESTILO */
+section,
+.section__index {
+  width: 100%;
+  height: 500px;
+  background-color: #131311; }
+  section .text-center,
+  .section__index .text-center {
+    color: #b9ac28; }
+
+.d-flex .justify-content-center .align-items-center {
+  width: 350px;
+  height: 350px; }
+
+/* SECTION ESTILO */
+/* FOOTER ESTILO */
+footer {
+  background-color: #4b543a;
+  width: 100%;
+  height: 135px; }
+  footer .h1__footer {
+    color: #b9ac28; }
+  footer .icono_footer {
+    color: #131311; }
+    footer .icono_footer:hover {
+      color: #b9ac28; }
+
+/* MAIN ESTILO */
+.main__tour {
+  width: 100%;
+  height: 1000px;
+  margin: 0px;
+  background-color: #131311;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%; }
+  .main__tour .titulo__tour {
+    color: #b9ac28;
+    font-size: 4rem; }
+  .main__tour .btn__tour {
+    color: white;
+    background-color: #b9ac28; }
+    .main__tour .btn__tour .fa-brands {
+      margin: 20px; }
+      .main__tour .btn__tour .fa-brands .row {
+        margin-right: 0px;
+        margin-left: 0px; }
+
+/* CARD ESTILO */
+.card {
+  border-radius: 2rem;
+  background-color: #4b543a; }
+  .card .card-text {
+    color: white; }
+  .card .card-title {
+    color: #b9ac28; }
+    .card .card-title .mt-5 {
+      color: white; }
+
+.btn:hover {
+  background-color: #131311;
+  color: white; }
+
+/* CARD ESTILO */
+.d-flex {
+  align-content: space-around; }
+
+/* MAIN ESTILO */
+/* MEDIA INDEX */
+@media screen and (max-width: 768px) {
+  section,
+  .section__index {
+    height: 1200px; }
+    section .h2,
+    .section__index .h2 {
+      font-size: 1.8rem; }
+  .d-flex .flex-row-reverse {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    height: auto; } }
+
+@media screen and (max-width: 500px) {
+  .header__all {
+    height: 136px; }
+    .header__all .h1 {
+      font-size: 2rem; }
+      .header__all .h1 a .fa-brands {
+        margin: 1rem; } }
+
+/* MEDIA INDEX */
+/* MEDIA TOUR */
+@media screen and (max-width: 768px) {
+  .main__tour {
+    height: 2000px; }
+    .main__tour .titulo__tour {
+      margin: auto;
+      margin-bottom: 20rem; }
+  .d-flex {
+    margin: 0px; }
+  .row .d-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; }
+    .row .d-flex .row {
+      margin-bottom: auto; }
+      .row .d-flex .row {
+        margin-right: 0px;
+        margin-left: 0px; } }
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 136px; }
+    header a .fa-brands {
+      margin: 0px; }
+  .row {
+    margin-right: 0px;
+    margin-left: 0px; } }
+
+@media screen and (max-width: 320px) {
+  .main__tour {
+    height: 1800px; }
+  .card {
+    width: 50px;
+    height: 50px; }
+  .row .d-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+    .row .d-flex {
+      margin-right: 0px;
+      margin-left: 0px; }
+  .d-flex .justify-content-center .align-items-center {
+    width: 290px;
+    height: 300px; }
+  .titulo__tour {
+    margin: auto;
+    margin-bottom: 20rem;
+    color: #b9ac28; }
+  .m-5 {
+    margin: 1rem !important; } }
+
+/* MEDIA TOUR */
+/* MEDIA ALBUM */
+@media screen and (min-width: 320px) {
+  .main__albums {
+    height: 2800px; }
+  .card.tarjeta__anim {
+    width: 350px;
+    height: 350px; }
+  .card.tarjeta__anim1 {
+    width: 350px;
+    height: 350px; }
+  .card.tarjeta__anim2 {
+    width: 350px;
+    height: 350px; }
+  .card.tarjeta__anim3 {
+    width: 350px;
+    height: 350px; } }

@@ -1,0 +1,60 @@
+/* MAIN ESTILO */
+.main__tour {
+    width: 100%;
+    height: 1000px;
+
+    margin: 0px;
+
+    background-color: #131311;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+
+    .titulo__tour {
+        color: #b9ac28;
+        font-size: 4rem;
+    }
+
+    .btn__tour {
+        color: white;
+        background-color: #b9ac28;
+
+        .fa-brands {
+            margin: 20px;
+
+            .row {
+                margin-right: 0px;
+                margin-left: 0px;
+            }
+        }
+    }
+
+}
+
+/* CARD ESTILO */
+.card {
+    border-radius: 2rem;
+    background-color: #4b543a;
+    .card-text {
+        color: white;
+    }
+        .card-title {
+            color: #b9ac28;
+            .mt-5 {
+                color: white;
+            }
+        }
+    }
+.btn:hover {
+    background-color: #131311;
+    color: white;
+}
+
+/* CARD ESTILO */
+.d-flex {
+    align-content: space-around
+}
+
+/* MAIN ESTILO */
