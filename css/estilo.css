@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -52,10 +53,25 @@ header {
 .header__logo {
     width: 250px;
     height: 100px;
+=======
+    font-family: 'Lato', sans-serif
+}
+
+
+/* --------------------  INDEX  ----------------------------- */
+
+
+/* HEADER DISEÑO */
+
+.navbar-brand {
+    width: 200px;
+    height: 120px;
+>>>>>>> bootstrap_top
     margin: 0px;
     padding: 0px;
 }
 
+<<<<<<< HEAD
 
 header,
 .header__logo,
@@ -75,6 +91,21 @@ a:hover {
     color: white;
     padding: 20px;
     text-decoration: none;
+=======
+.navbar {
+    background-color: #4b543a;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #b9ac28;
+>>>>>>> bootstrap_top
 }
 
 /* HEADER DISEÑO */
@@ -83,7 +114,11 @@ a:hover {
 
 /* MAIN DISEÑO */
 
+<<<<<<< HEAD
 .main {
+=======
+.main__index {
+>>>>>>> bootstrap_top
     background: url(../imagenes/p1.jpg);
     background-position: center;
     background-size: cover;
@@ -98,6 +133,7 @@ a:hover {
     color: white;
 }
 
+<<<<<<< HEAD
 main,
 .main__titulo1,
 .main__titulo2 {
@@ -107,12 +143,26 @@ main,
     align-items: center;
     font-size: 5rem;
 }
+=======
+>>>>>>> bootstrap_top
 
 /* MAIN DISEÑO */
 
 
 /* SECTION DISEÑO */
 
+<<<<<<< HEAD
+=======
+.d-flex .justify-content-center .align-items-center {
+    width: 350px;
+    height: 350px;
+}
+
+.text-center {
+    color: #b9ac28;
+}
+
+>>>>>>> bootstrap_top
 section,
 .section__index {
     width: 100%;
@@ -120,6 +170,7 @@ section,
     background-color: #131311;
 }
 
+<<<<<<< HEAD
 .section__imagen {
     width: 350px;
     height: 350px;
@@ -144,6 +195,8 @@ section,
     color: #b9ac28;
     font-size: 30px;
 }
+=======
+>>>>>>> bootstrap_top
 
 /* SECTION DISEÑO */
 
@@ -157,6 +210,7 @@ footer {
     height: 135px;
 }
 
+<<<<<<< HEAD
 .redes__icono {
     width: 50px;
     height: 50px;
@@ -178,6 +232,23 @@ footer {
     margin: 20px;
 }
 
+=======
+.icono_footer {
+    color: #131311;
+}
+
+.icono_footer:hover {
+    color: #b9ac28;
+}
+
+.h1__footer {
+    color: #b9ac28;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #b9ac28;
+}
+>>>>>>> bootstrap_top
 
 /* FOOTER DISEÑO */
 
@@ -185,6 +256,7 @@ footer {
 
 /* MEDIA QUERIES INDEX */
 
+<<<<<<< HEAD
 @media screen and (max-width: 850px) {
 
     /* MAIN MEDIA */
@@ -273,6 +345,55 @@ footer {
 
 /* MEDIA QUERIES INDEX */
 
+=======
+
+@media screen and (max-width:768px) {
+
+
+    section,
+    .section__index {
+
+        height: 1000px;
+
+    }
+
+    .h2 {
+        font-size: 1.8rem;
+    }
+
+    .d-flex .flex-row-reverse {
+        width: 400px;
+        height: 400px;
+    }
+
+    .d-flex .flex-row-reverse {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .flex-row-reverse {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .header__all {
+        height: 136px;
+    }
+
+    .h1 {
+        font-size: 2rem;
+    }
+
+    a .fa-brands {
+        margin: 1rem;
+    }
+
+
+}
+
+>>>>>>> bootstrap_top
 
 
 
@@ -281,6 +402,7 @@ footer {
 
 /* --BODY GALERIA DISEÑO-- */
 
+<<<<<<< HEAD
 .header__galeria {
     grid-area: header;
 }
@@ -303,6 +425,9 @@ footer {
         "main"
         "footer";
 }
+=======
+
+>>>>>>> bootstrap_top
 
 /* --BODY GALERIA DISEÑO-- */
 
@@ -314,9 +439,15 @@ footer {
 .main__galeria {
     background-color: #131311;
     width: 100%;
+<<<<<<< HEAD
     height: 2800px;
     display: flex;
     flex-wrap: nowrap;
+=======
+    height: 3500px;
+    display: flex;
+    flex-wrap: wrap;
+>>>>>>> bootstrap_top
 }
 
 
@@ -340,11 +471,19 @@ footer {
 /* GALERIA CONTENEDOR FLEX */
 
 .galeria__titulo {
+<<<<<<< HEAD
     height: 100px;
     padding: 0px;
     margin: 50px;
     font-size: 3rem;
     color: red;
+=======
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 100%;
+>>>>>>> bootstrap_top
 }
 
 .img__galeriaT {
@@ -386,14 +525,22 @@ span,
 
 .separador__galeria {
     margin: 80px;
+<<<<<<< HEAD
     width: 1200px;
+=======
+    width: 1700px;
+>>>>>>> bootstrap_top
     height: 2px;
     background-color: #b9ac28;
 }
 
 .separador__galeria1 {
     margin: 80px;
+<<<<<<< HEAD
     width: 1200px;
+=======
+    width: 1700px;
+>>>>>>> bootstrap_top
     height: 2px;
     background-color: #b9ac28;
 }
@@ -412,13 +559,18 @@ span,
 @media screen and (max-width:1024px) {
 
     .main__galeria {
+<<<<<<< HEAD
         height: 3200px;
+=======
+        height: 4800px;
+>>>>>>> bootstrap_top
     }
 }
 
 /* MEDIA 1024PX */
 
 
+<<<<<<< HEAD
 
 /* MEDIA 850PX */
 
@@ -496,6 +648,20 @@ span,
 }
 
 /* MEDIA 850PX */
+=======
+/* MEDIA 768PX */
+
+@media screen and (max-width:768px) {
+
+    .main__galeria {
+        height: 7500px;
+    }
+
+}
+
+
+/* MEDIA 768PX */
+>>>>>>> bootstrap_top
 
 
 
@@ -540,7 +706,17 @@ span,
 /* MEDIA 500PX */
 
 
+<<<<<<< HEAD
 /* --MEDIA QUERIES GALEsRIA-- */
+=======
+/* --MEDIA QUERIES GALERIA-- */
+
+
+
+
+
+
+>>>>>>> bootstrap_top
 
 
 
@@ -562,6 +738,7 @@ span,
 
 }
 
+<<<<<<< HEAD
 .main__tour__contenedor {
     width: 5000px;
     color: #b9ac28;
@@ -711,10 +888,18 @@ span,
     color: #ffffff;
     background-color: #b9ac28;
     border-radius: 6px;
+=======
+/*  */
+
+.btn__tour {
+    color: white;
+    background-color: #b9ac28;
+>>>>>>> bootstrap_top
 }
 
 /*  */
 
+<<<<<<< HEAD
 @media screen and (max-width: 850px) {
     .f_tour {
         height: 400px;
@@ -1054,10 +1239,21 @@ span,
     }
 
 
+=======
+
+.fa-brands {
+    margin: 20px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+>>>>>>> bootstrap_top
 }
 
 @media screen and (max-width:1024px) {
 
+<<<<<<< HEAD
     .main__albums {
 
         height: 3000px;
@@ -1117,4 +1313,356 @@ span,
         height: 600px;
     }
 
+=======
+    .main__tour {
+        height: 2300px;
+    }
+
+    .row .d-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+
+    .titulo__tour {
+        margin: auto;
+        margin-bottom: 20rem;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    .main__tour {
+
+        height: 2400px;
+    }
+
+    .row {
+        margin-bottom: auto;
+    }
+
+
+    .row .d-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+
+    }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+
+    .titulo__tour {
+        margin: auto;
+        margin-bottom: 20rem;
+
+
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+    header {
+        height: 136px;
+    }
+
+    a .fa-brands {
+        margin: 0px;
+    }
+
+
+
+}
+
+
+
+.card {
+    border-radius: 2rem;
+    background-color: #4b543a;
+}
+
+.card-title {
+    color: #b9ac28;
+}
+
+.card-text {
+    color: white;
+}
+
+.mt-5 {
+    color: white;
+}
+
+.titulo__tour {
+    color: #b9ac28;
+    font-size: 4rem;
+}
+
+.d-flex {
+    align-content: space-around
+}
+
+.btn:hover {
+    background-color: #131311;
+    color: white;
+
+}
+
+
+/* -----------------------  ALBUMS  ------------------------- */
+
+.main__albums {
+    width: 100%;
+    height: 1700px;
+    background-color: #131311;
+}
+
+.album__titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding-top: 80px;
+
+    color: #b9ac28;
+}
+
+.tarjeta__anim {
+    background: url(../imagenes/trenchportada.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s;
+    width: 350px;
+    height: 350px;
+}
+
+.card.tarjeta__anim:hover {
+    width: 380px;
+    height: 380px;
+}
+
+
+.card {
+    margin: 3.5rem;
+    margin-top: 180px;
+    z-index: 1;
+}
+
+.tarjeta__anim1 {
+    background: url(../imagenes/vesseltop.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s;
+    width: 350px;
+    height: 350px;
+}
+
+.card.tarjeta__anim1:hover {
+    width: 380px;
+    height: 380px;
+
+}
+
+.tarjeta__anim2 {
+    background: url(../imagenes/scaledicy.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s;
+    width: 350px;
+    height: 350px;
+}
+
+.tarjeta__anim2:hover {
+    width: 380px;
+    height: 380px;
+}
+
+
+.tarjeta__anim3 {
+    background: url(../imagenes/blurryfaceportada.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s;
+    width: 350px;
+    height: 350px;
+}
+
+.tarjeta__anim3:hover {
+    width: 380px;
+    height: 380px;
+
+}
+
+.contenedor__año {
+    color: white;
+    height: 500px;
+    margin-top: 380px;
+}
+
+.tarjeta__anim:hover {
+    width: 350px;
+    height: 350px;
+    color: red;
+
+}
+
+.marg__contenedor {
+    margin: 3.5rem;
+}
+
+.card-img-top {
+    transition: .5s;
+    width: 200px;
+
+}
+
+.card-img-top:hover {
+    width: 350px;
+    height: 350px;
+    color: white;
+
+}
+
+
+/* MEDIA ALBUM */
+
+@media screen and (max-width:1024px) {
+
+    .main__albums {
+        height: 1700px;
+    }
+
+    .card.tarjeta__anim:hover {
+        width: 350px;
+        height: 350px;
+
+        display: none;
+
+    }
+
+    .card.tarjeta__anim1:hover {
+        width: 350px;
+        height: 350px;
+        display: none;
+    }
+
+    .card.tarjeta__anim2:hover {
+        width: 350px;
+        height: 350px;
+        display: none;
+
+    }
+
+    .card.tarjeta__anim3:hover {
+        width: 350px;
+        height: 350px;
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (min-width:320px) {
+
+    
+    .main__albums {
+        height: 2800px;
+    }
+
+    .card.tarjeta__anim {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card.tarjeta__anim1 {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .card.tarjeta__anim2 {
+        width: 350px;
+        height: 350px;
+  
+
+    }
+
+    .card.tarjeta__anim3 {
+        width: 350px;
+        height: 350px;
+       
+    }
+
+}
+
+
+
+
+
+/* ---------------------  OPINIONES  ----------------------- */
+
+.main__opiniones {
+    width: 100%;
+    height: 850px;
+    background-color: #131311;
+}
+
+.contenedor__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 120px;
+}
+
+.form-label {
+    color: #b9ac28;
+}
+
+.btn__opiniones {
+    width: 50%;
+    margin: auto;
+
+    margin-top: 30px;
+
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: #b9ac28;
+}
+
+.opiniones__titulo {
+    color: #b9ac28;
+    display: flex;
+    justify-content: center;
+
+
+    padding-top: 80px;
+}
+
+.containter-fluid {
+    width: 50%;
+>>>>>>> bootstrap_top
 }
