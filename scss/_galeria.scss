@@ -1,0 +1,101 @@
+$paletacolores: (
+    backcolor: #131311,
+    backcolor1: #b9ac28,
+);
+
+@mixin flex ($d, $jc,$ai){
+    display: $d;
+    justify-content: $jc;
+    align-items: $ai;
+};
+
+/* --MAIN GALERIA DISEÑO-- */
+
+.main__galeria {
+    background-color: map-get($paletacolores, backcolor);
+    width: 100%;
+    height: 3800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.galeria__titulo {
+    height: 100px;
+    padding: 200px;
+    & {
+        @include flex(flex, center, center);
+        font-size: 3rem;
+        width: 100%;
+    }
+}
+
+.galeria__flex {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img__galeriaT {
+    width: 400px;
+    height: 340px;
+}
+
+
+/* TITULOS DISEÑO */
+
+span,
+.topM {
+    color: #b9ac28;
+}
+
+span,
+.topM0 {
+    color: #ff968d;
+}
+
+span,
+.topM1 {
+    color: #0de2ec;
+}
+
+span,
+.topM2 {
+    color: #ef1417;
+}
+
+span,
+.topM3 {
+    color: #e6dcd8;
+}
+
+/* TITULOS DISEÑO */
+
+/* SEPARADOR DISEÑO */
+
+.separador__galeria {
+    margin: 80px;
+    width: 1700px;
+    height: 2px;
+    background-color: map-get($paletacolores, backcolor1);
+}
+
+.separador__galeria1 {
+    @extend .separador__galeria
+}
+
+.f__galeria {
+    background-color: #4b543a;
+    width: 100%;
+    height: 142px;
+    .h1__footer {
+        color: #b9ac28;
+    }
+    .icono_footer {
+        color: #131311;
+        &:hover {
+            color: #b9ac28;
+
+        }
+
+    }
+}

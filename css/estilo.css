@@ -450,11 +450,11 @@ footer {
 >>>>>>> bootstrap_top
 }
 
-
 .galeria__titulo {
     height: 100px;
     padding: 200px;
 }
+
 
 /* GALERIA CONTENEDOR FLEX */
 
@@ -1657,12 +1657,35 @@ span,
     color: #b9ac28;
     display: flex;
     justify-content: center;
-
-
     padding-top: 80px;
 }
 
 .containter-fluid {
     width: 50%;
+<<<<<<< HEAD
+>>>>>>> bootstrap_top
+=======
+}
+
+footer {
+    background-color: #4b543a;
+    width: 100%;
+    height: 135px;
+}
+
+.icono_footer {
+    color: #131311;
+}
+
+.icono_footer:hover {
+    color: #b9ac28;
+}
+
+.h1__footer {
+    color: #b9ac28;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #b9ac28;
 >>>>>>> bootstrap_top
 }
