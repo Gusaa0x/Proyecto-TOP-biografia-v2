@@ -1,7 +1,9 @@
+@charset "UTF-8";
 /* NAVBAR ESTILO */
 .navbar {
   background-color: #4b543a;
-  width: 100%; }
+  width: 100%;
+  z-index: 2; }
   .navbar .navbar-brand {
     width: 200px;
     height: 120px;
@@ -44,17 +46,6 @@ section,
 
 /* SECTION ESTILO */
 /* FOOTER ESTILO */
-footer {
-  background-color: #4b543a;
-  width: 100%;
-  height: 135px; }
-  footer .h1__footer {
-    color: #b9ac28; }
-  footer .icono_footer {
-    color: #131311; }
-    footer .icono_footer:hover {
-      color: #b9ac28; }
-
 /* MAIN ESTILO */
 .main__tour {
   width: 100%;
@@ -65,6 +56,9 @@ footer {
   flex-direction: row;
   justify-content: center;
   max-width: 100%; }
+  .main__tour .row {
+    margin-right: 0px;
+    margin-left: 0px; }
   .main__tour .titulo__tour {
     color: #b9ac28;
     font-size: 4rem; }
@@ -73,9 +67,6 @@ footer {
     background-color: #b9ac28; }
     .main__tour .btn__tour .fa-brands {
       margin: 20px; }
-      .main__tour .btn__tour .fa-brands .row {
-        margin-right: 0px;
-        margin-left: 0px; }
 
 /* CARD ESTILO */
 .card {
@@ -96,7 +87,231 @@ footer {
 .d-flex {
   align-content: space-around; }
 
-/* MAIN ESTILO */
+.f__tour {
+  background-color: #4b543a;
+  width: 100%;
+  height: 142px; }
+  .f__tour .h1__footer {
+    color: #b9ac28; }
+  .f__tour .icono_footer {
+    color: #131311; }
+    .f__tour .icono_footer:hover {
+      color: #b9ac28; }
+
+/* -----------------------  ALBUMS  ------------------------- */
+.main__albums {
+  width: 100%;
+  height: 1700px;
+  background-color: #131311; }
+  .main__albums .album__titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    color: #b9ac28; }
+  .main__albums .card {
+    margin: 3.5rem;
+    margin-top: 180px;
+    z-index: 1; }
+
+/* .card:hover {
+    width: 380px;
+    height: 380px;
+} */
+.tarjeta__anim {
+  background: url(../imagenes/trenchportada.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  transition: .5s; }
+
+.card.tarjeta__anim:hover {
+  width: 380px;
+  height: 380px; }
+
+.tarjeta__anim1 {
+  background: url(../imagenes/vesseltop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  transition: .5s; }
+
+.card.tarjeta__anim1:hover {
+  width: 380px;
+  height: 380px; }
+
+.tarjeta__anim2 {
+  background: url(../imagenes/scaledicy.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  transition: .5s; }
+
+.card.tarjeta__anim2:hover {
+  width: 380px;
+  height: 380px;
+  /* @include sizes(380px, 380px); */ }
+
+.tarjeta__anim3 {
+  background: url(../imagenes/blurryfaceportada.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350;
+  height: 350;
+  transition: .5s; }
+
+.card.tarjeta__anim3:hover {
+  width: 380px;
+  height: 380px; }
+
+.contenedor__año {
+  color: white;
+  height: 500px;
+  margin-top: 380px; }
+
+.marg__contenedor {
+  margin: 3.5rem; }
+
+.card-img-top {
+  transition: .5s;
+  width: 200px; }
+  .card-img-top .card-img-top:hover {
+    width: 350px;
+    height: 350px;
+    color: white; }
+
+.f__albums {
+  background-color: #4b543a;
+  width: 100%;
+  height: 142px; }
+  .f__albums .h1__footer {
+    color: #b9ac28; }
+  .f__albums .icono_footer {
+    color: #131311; }
+    .f__albums .icono_footer:hover {
+      color: #b9ac28; }
+
+/* --MAIN GALERIA DISEÑO-- */
+.main__galeria {
+  background-color: #131311;
+  width: 100%;
+  height: 3800px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.galeria__titulo {
+  height: 100px;
+  padding: 200px; }
+  .galeria__titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 100%; }
+
+.galeria__flex {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.img__galeriaT {
+  width: 400px;
+  height: 340px; }
+
+/* TITULOS DISEÑO */
+span,
+.topM {
+  color: #b9ac28; }
+
+span,
+.topM0 {
+  color: #ff968d; }
+
+span,
+.topM1 {
+  color: #0de2ec; }
+
+span,
+.topM2 {
+  color: #ef1417; }
+
+span,
+.topM3 {
+  color: #e6dcd8; }
+
+/* TITULOS DISEÑO */
+/* SEPARADOR DISEÑO */
+.separador__galeria, .separador__galeria1 {
+  margin: 80px;
+  width: 1700px;
+  height: 2px;
+  background-color: #b9ac28; }
+
+.f__galeria {
+  background-color: #4b543a;
+  width: 100%;
+  height: 142px; }
+  .f__galeria .h1__footer {
+    color: #b9ac28; }
+  .f__galeria .icono_footer {
+    color: #131311; }
+    .f__galeria .icono_footer:hover {
+      color: #b9ac28; }
+
+.main__opiniones {
+  width: 100%;
+  height: 860px;
+  background-color: #131311; }
+
+.contenedor__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px; }
+
+.form-label {
+  color: #b9ac28; }
+
+.btn__opiniones {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: #b9ac28; }
+
+.opiniones__titulo {
+  color: #b9ac28;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px; }
+
+.containter-fluid {
+  width: 45%;
+  margin: 50px; }
+
+.f__op {
+  background-color: #4b543a;
+  width: 100%;
+  height: 135px; }
+  .f__op .h1__footer {
+    color: #b9ac28; }
+  .f__op .icono_footer {
+    color: #131311; }
+    .f__op .icono_footer:hover {
+      color: #b9ac28; }
+
 /* MEDIA INDEX */
 @media screen and (max-width: 768px) {
   section,
@@ -150,19 +365,6 @@ footer {
     margin-left: 0px; } }
 
 @media screen and (max-width: 320px) {
-  .main__tour {
-    height: 1800px; }
-  .card {
-    width: 50px;
-    height: 50px; }
-  .row .d-flex {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; }
-    .row .d-flex {
-      margin-right: 0px;
-      margin-left: 0px; }
   .d-flex .justify-content-center .align-items-center {
     width: 290px;
     height: 300px; }

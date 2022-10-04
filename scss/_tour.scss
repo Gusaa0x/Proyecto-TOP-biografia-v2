@@ -2,15 +2,16 @@
 .main__tour {
     width: 100%;
     height: 1000px;
-
     margin: 0px;
-
     background-color: #131311;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     max-width: 100%;
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 
     .titulo__tour {
         color: #b9ac28;
@@ -24,10 +25,6 @@
         .fa-brands {
             margin: 20px;
 
-            .row {
-                margin-right: 0px;
-                margin-left: 0px;
-            }
         }
     }
 
@@ -57,4 +54,19 @@
     align-content: space-around
 }
 
-/* MAIN ESTILO */
+.f__tour {
+    background-color: #4b543a;
+    width: 100%;
+    height: 142px;
+    .h1__footer {
+        color: #b9ac28;
+    }
+    .icono_footer {
+        color: #131311;
+        &:hover {
+            color: #b9ac28;
+
+        }
+
+    }
+}

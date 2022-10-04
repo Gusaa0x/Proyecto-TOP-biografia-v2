@@ -1,0 +1,114 @@
+/* -----------------------  ALBUMS  ------------------------- */
+
+@mixin background ($position, $repeat, $size) {
+    background-position: $position;
+    background-repeat: $repeat;
+    background-size: $size;
+}
+
+@mixin sizes ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+
+.main__albums {
+    width: 100%;
+    height: 1700px;
+    background-color: #131311;
+    .album__titulo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+        color: #b9ac28;
+    }
+    .card {
+        margin: 3.5rem;
+        margin-top: 180px;
+        z-index: 1;
+    }
+}
+/* .card:hover {
+    width: 380px;
+    height: 380px;
+} */
+
+.tarjeta__anim {
+    background: url(../imagenes/trenchportada.png);
+    @include background (center, no-repeat, cover);
+    @include sizes(350px, 350px);
+    transition: .5s;
+}
+.card.tarjeta__anim:hover {
+    width: 380px;
+    height: 380px;
+}
+
+.tarjeta__anim1 {
+    background: url(../imagenes/vesseltop.png);
+    @include background (center, no-repeat, cover);
+    @include sizes(350px, 350px);
+    transition: .5s;
+}
+.card.tarjeta__anim1:hover {
+    width: 380px;
+    height: 380px;;
+}
+    
+
+.tarjeta__anim2 {
+    background: url(../imagenes/scaledicy.png);
+    @include background (center, no-repeat, cover);
+    @include sizes(350px, 350px);
+    transition: .5s;
+}
+.card.tarjeta__anim2:hover {
+    width: 380px;
+    height: 380px;
+    /* @include sizes(380px, 380px); */
+}
+.tarjeta__anim3 {
+    background: url(../imagenes/blurryfaceportada.png);
+    @include background (center, no-repeat, cover);
+    @include sizes(350, 350);
+    transition: .5s;
+}
+.card.tarjeta__anim3:hover{
+    @include sizes(380px, 380px);
+}
+
+.contenedor__año {
+    color: white;
+    height: 500px;
+    margin-top: 380px;
+}
+.marg__contenedor {
+    margin: 3.5rem;
+}
+.card-img-top {
+    transition: .5s;
+    width: 200px;
+    .card-img-top:hover {
+        width: 350px;
+        height: 350px;
+        color: white;
+    }
+}
+
+.f__albums {
+    background-color: #4b543a;
+    width: 100%;
+    height: 142px;
+    .h1__footer {
+        color: #b9ac28;
+    }
+    .icono_footer {
+        color: #131311;
+        &:hover {
+            color: #b9ac28;
+
+        }
+
+    }
+}
