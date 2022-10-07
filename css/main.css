@@ -422,7 +422,7 @@ span,
 /* MEDIA ALBUM */
 @media screen and (min-width: 320px) {
   .main__albums {
-    height: 2813px; }
+    height: 1750px; }
   .card.tarjeta__anim {
     width: 350px;
     height: 350px; }
