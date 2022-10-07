@@ -1,17 +1,20 @@
 /* MEDIA INDEX */
-
+@media screen and (max-width:928px) {
+section, .section__index {
+    height: 922px;
+}
+}
 @media screen and (max-width:768px) {
-
 
     section,
     .section__index {
-
-        height: 1200px;
-
+        height: 1193px;
         .h2 {
             font-size: 1.8rem;
         }
-
+    }
+    .h1 {
+        margin-bottom: 0rem;
     }
 
     .d-flex .flex-row-reverse {
@@ -19,10 +22,7 @@
         flex-wrap: wrap;
         width: 400px;
         height: auto;
-
     }
-
-
 }
 
 @media screen and (max-width:500px) {
@@ -38,6 +38,14 @@
             }
         }
     }
+}
+
+@media screen and (max-width:320px) {
+.d-flex .justify-content-center .align-items-center {
+    width: 280px;
+    height: 289px;
+}
+
 }
 
 /* MEDIA INDEX */
@@ -113,10 +121,6 @@
 }
 
 
-
-
-
-
 /* MEDIA TOUR */
 
 
@@ -127,7 +131,7 @@
 
 
     .main__albums {
-        height: 2800px;
+        height: 2813px;
     }
 
     .card.tarjeta__anim {
@@ -149,7 +153,46 @@
     .card.tarjeta__anim3 {
         width: 350px;
         height: 350px;
-
     }
+
+}
+
+/* MEDIA GALERIA */
+
+@media screen and (max-width:768px) {
+
+    .main__galeria {
+        height: 7500px;
+    }
+}
+
+.galeria__titulo {
+    padding: 0px;
+}
+
+.img__galeriaT {
+    width: 300px;
+    height: 300px;
+}
+
+/* MEDIA GALERIA */
+
+/* MEDIA OPINIONES */
+
+@media screen and (max-width:768px)  {
+
+.main__opiniones {
+    height: 863px;
+}
+.contenedor__form {
+    margin-bottom: 60px;
+}
+.containter-fluid {
+    width: 75%;
+}
+.d-flex .flex-row-reverse {
+    width: 315px;
+}
+
 
 }
