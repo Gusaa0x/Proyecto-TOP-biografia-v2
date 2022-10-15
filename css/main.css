@@ -252,7 +252,9 @@ section,
   flex-direction: row;
   gap: 10px;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 410px; }
 
 .img__galeriaT {
   width: 400px;
@@ -309,7 +311,7 @@ span,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 120px; }
+  margin-top: 74px; }
 
 .form-label {
   color: #b9ac28; }
@@ -322,11 +324,15 @@ span,
   border-color: transparent;
   background-color: #b9ac28; }
 
-.opiniones__titulo {
+.opiniones__titulo, .opiniones__titulos {
   color: #b9ac28;
   display: flex;
+  font-size: 2rem;
   justify-content: center;
   padding-top: 80px; }
+
+.opiniones__titulos {
+  font-size: 3rem; }
 
 .containter-fluid {
   width: 45%;
@@ -344,6 +350,10 @@ span,
       color: #b9ac28; }
 
 /* MEDIA INDEX */
+@media screen and (max-width: 1409px) {
+  .main__index:before {
+    bottom: -100px; } }
+
 @media screen and (max-width: 928px) {
   section,
   .section__index {
@@ -358,11 +368,12 @@ span,
       font-size: 1.8rem; }
   .h1 {
     margin-bottom: 0rem; }
+  .main__index:before {
+    bottom: -100px; }
   .d-flex .flex-row-reverse {
     flex-direction: column;
     flex-wrap: wrap;
-    width: 400px;
-    height: auto; } }
+    width: 434px; } }
 
 @media screen and (max-width: 500px) {
   .header__all {
@@ -374,11 +385,17 @@ span,
 
 @media screen and (max-width: 320px) {
   .d-flex .justify-content-center .align-items-center {
-    width: 280px;
-    height: 289px; } }
+    width: 275px;
+    height: 390px;
+    margin-top: 18px;
+    padding-top: 62px; } }
 
 /* MEDIA INDEX */
 /* MEDIA TOUR */
+@media screen and (max-width: 1200px) {
+  .container {
+    padding-right: 0px; } }
+
 @media screen and (max-width: 768px) {
   .main__tour {
     height: 2000px; }
@@ -408,9 +425,6 @@ span,
     margin-left: 0px; } }
 
 @media screen and (max-width: 320px) {
-  .d-flex .justify-content-center .align-items-center {
-    width: 290px;
-    height: 300px; }
   .titulo__tour {
     margin: auto;
     margin-bottom: 20rem;
@@ -450,12 +464,16 @@ span,
 
 /* MEDIA GALERIA */
 /* MEDIA OPINIONES */
+@media screen and (max-width: 1268px) {
+  .opiniones__titulo, .opiniones__titulos {
+    font-size: 1rem; }
+  .opiniones__titulos {
+    font-size: 3rem; } }
+
 @media screen and (max-width: 768px) {
   .main__opiniones {
     height: 863px; }
   .contenedor__form {
     margin-bottom: 60px; }
   .containter-fluid {
-    width: 75%; }
-  .d-flex .flex-row-reverse {
-    width: 315px; } }
+    width: 75%; } }

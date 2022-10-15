@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 74px;
 }
 .form-label {
     color: #b9ac28;
@@ -25,12 +25,16 @@
     border-color: transparent;
     background-color: #b9ac28;
 }
-
 .opiniones__titulo {
     color: #b9ac28;
     display: flex;
+    font-size: 2rem;
     justify-content: center;
     padding-top: 80px;
+}
+.opiniones__titulos {
+    @extend .opiniones__titulo;
+    font-size: 3rem;
 }
 
 .containter-fluid {

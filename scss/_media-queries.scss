@@ -1,27 +1,41 @@
 /* MEDIA INDEX */
+@media screen and (max-width:1409px) {
+    .main__index:before {
+        bottom: -100px;
+    }
+
+}
 @media screen and (max-width:928px) {
-section, .section__index {
-    height: 922px;
+
+    section,
+    .section__index {
+        height: 922px;
+    }
 }
-}
+
 @media screen and (max-width:768px) {
 
     section,
     .section__index {
         height: 1193px;
+
         .h2 {
             font-size: 1.8rem;
         }
     }
+
     .h1 {
         margin-bottom: 0rem;
+    }
+
+    .main__index:before {
+        bottom: -100px;
     }
 
     .d-flex .flex-row-reverse {
         flex-direction: column;
         flex-wrap: wrap;
-        width: 400px;
-        height: auto;
+        width: 434px;
     }
 }
 
@@ -41,10 +55,12 @@ section, .section__index {
 }
 
 @media screen and (max-width:320px) {
-.d-flex .justify-content-center .align-items-center {
-    width: 280px;
-    height: 289px;
-}
+    .d-flex .justify-content-center .align-items-center {
+        width: 275px;
+        height: 390px;
+        margin-top: 18px;
+        padding-top: 62px;
+    }
 
 }
 
@@ -52,7 +68,11 @@ section, .section__index {
 
 /* MEDIA TOUR */
 
-
+@media screen and (max-width:1200px) {
+    .container {
+        padding-right: 0px;
+    }
+}
 @media screen and (max-width:768px) {
 
     .main__tour {
@@ -73,6 +93,7 @@ section, .section__index {
         justify-content: center;
         align-items: center;
         gap: 30px;
+
         .row {
             margin-bottom: auto;
 
@@ -106,15 +127,14 @@ section, .section__index {
 
 @media screen and (max-width:320px) {
 
-    .d-flex .justify-content-center .align-items-center {
-        width: 290px;
-        height: 300px;
-    }
+  
+
     .titulo__tour {
         margin: auto;
         margin-bottom: 20rem;
         color: #b9ac28;
     }
+
     .m-5 {
         margin: 1rem !important;
     }
@@ -178,21 +198,28 @@ section, .section__index {
 /* MEDIA GALERIA */
 
 /* MEDIA OPINIONES */
+@media screen and (max-width:1268px) {
+    .opiniones__titulo {
+        font-size: 1rem;
+    }
+    .opiniones__titulos {
+        font-size: 3rem;
+    }
 
-@media screen and (max-width:768px)  {
+}
+@media screen and (max-width:768px) {
 
-.main__opiniones {
-    height: 863px;
-}
-.contenedor__form {
-    margin-bottom: 60px;
-}
-.containter-fluid {
-    width: 75%;
-}
-.d-flex .flex-row-reverse {
-    width: 315px;
-}
+    .main__opiniones {
+        height: 863px;
+    }
+
+    .contenedor__form {
+        margin-bottom: 60px;
+    }
+
+    .containter-fluid {
+        width: 75%;
+    }
 
 
 }
