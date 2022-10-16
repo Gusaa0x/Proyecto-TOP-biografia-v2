@@ -396,6 +396,30 @@ span,
   .container {
     padding-right: 0px; } }
 
+@media screen and (max-width: 1102px) {
+  .main__tour {
+    height: 2500px; }
+  .row .d-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; } }
+
+@media screen and (min-width: 1074px) {
+  .main__tour .row {
+    margin-right: 21px; } }
+
+@media screen and (min-width: 1072px) {
+  .sad {
+    height: 136px;
+    width: 353px; }
+  .main__tour .row {
+    margin-right: 24px; } }
+
+@media screen and (min-width: 1071px) {
+  .main__tour .row {
+    margin-right: 24px; } }
+
 @media screen and (max-width: 1070px) {
   .main__tour {
     height: 2000px; }
